@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#092a38</color>
+    <color name="colorPrimaryDark">#3f257c</color>
+    <color name="colorAccent">#4e484a</color>
+    <color name="colapp">#124c99</color>
+    <color name="colet">#aeb5bf</color>
+    <color name="collogin">#100a29</color>
+    <color name="coltext">#c5c1d4</color>
+    <color name="coltv">#000000</color>
+
+</resources>
