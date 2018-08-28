@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if ((name.equals("noman")) && (pass.equals("12345"))){
                 Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                intent.putExtra(LoginActivity.show,pass);
                 startActivity(intent);
             }
         }

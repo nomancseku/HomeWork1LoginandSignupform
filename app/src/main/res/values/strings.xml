@@ -5,6 +5,6 @@
     <string name="enter_password">Password</string>
     <string name="signup">Sign up</string>
     <string name="text_view">If you have no account, click SIGN UP.</string>
-    <string name="tv2"> এই আক্টিভিটি তৈরির কাজ চলছে। ধন্যবাদান্তে, আমি গরীব বাঙ্গালী। </string>
-    <string name="tv2_2">বাহ অসাধারন !! আপনি একজন অস্থির এন্ড্রয়েড অপারেটর। ফিলিং অসাম। আরে, বন্ধু যখন বউ লইয়া আমার বাড়ির সামনে দিয়া...</string>
+    <string name="tv2"> এই আক্টিভিটি তৈরির কাজ চলছে। ধন্যবাদান্তে, গরীব বাঙ্গালী। </string>
+    <string name="tv2_2">বাহ অসাধারন !! আপনি একজন অস্থির এন্ড্রয়েড অপারেটর।</string>
 </resources>
