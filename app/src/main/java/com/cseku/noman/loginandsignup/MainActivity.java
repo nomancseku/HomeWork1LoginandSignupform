@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        username = findViewById(R.id.idlogin);
-        password = findViewById(R.id.idpassword);
-        login = findViewById(R.id.btnlogin);
-        signup = findViewById(R.id.btnsignup);
+        username = (EditText)findViewById(R.id.idlogin);
+        password = (EditText)findViewById(R.id.idpassword);
+        login = (Button)findViewById(R.id.btnlogin);
+        signup = (Button)findViewById(R.id.btnsignup);
 
         login.setOnClickListener(this);
         signup.setOnClickListener(this);
@@ -35,9 +35,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         {
             name = username.getText().toString();
             pass = username.getText().toString();
-            Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-            startActivity(intent);
+            if ((name.equals("noman")) && (pass.equals("12345"))){
+                Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
         }
         else if(view.getId() == R.id.btnsignup)
         {
