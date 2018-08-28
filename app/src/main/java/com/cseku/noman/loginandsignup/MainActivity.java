@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(view.getId() == R.id.btnlogin)
         {
             name = username.getText().toString();
-            pass = username.getText().toString();
+            pass = password.getText().toString();
             if ((name.equals("noman")) && (pass.equals("12345"))){
                 Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
